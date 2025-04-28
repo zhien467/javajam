@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;   
+}
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url("images/background.gif") 
+
+}
+header {
+    background-color:#D2B48C;
+    /*text-align: center; centered text*/
+    height: 150px;
+    background-image: url("images/javajamlogo.jpg");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+h1 {
+    /*line-height: 200%; spacing, 200% equal to double spacing*/
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left; /*float the element on the left side of the container*/
+    width: 200px;
+    display: block;
+}
+
+nav a {
+    text-decoration: none; /*remove underline*/
+}
+
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60em ;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811; /*width style color*/
+    display: block;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    padding-bottom: 0.25em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #231814;
+    padding-bottom: 0;
+    clear:left; /*often used to terminate,or clear a float*/
+}
+
+main{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2em;
+    display: block;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+    display:block;
+}
+
+main h2, main h3, main h4, main dl, main div, main p, main ul {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto; /*often used to clear a float, although its intended purpose is to configure how the content should display if its too large for this area allocated. Auto = if needed, scrollbars are displayed to allow the access to the remaining content. */
+
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#wrapper {
+    width: 80%; /*the width of the content of the element*/
+    margin-left: auto; /*configure the space in the left margin*/
+    margin-right: auto; /*configure the space in the right margin*/
+    background-color: #231814;
+    min-width: 900px; /*configure a minimum width for an elements*/
+    max-width: 1280px; /*configure a maximum width for an elements*/
+    box-shadow: 3px 3px 3px 3px #333333; /*h v blur distance color*/
+
+}
+
+#heroroad {
+    background-image: url("images/heroroad.jpg");
+    background-size: 100% 100%; /*width, height*/
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url("images/heromugs.jpg");
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#herojobs {
+    background-image: url("images/herojobs.jpg");
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url("images/heroguitar.jpg");
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    background-color: #FFFFCC;
+}
+
+th,td {
+    padding: 10px; /*this padding for all 4 sides*/
+
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
+
+form {
+    padding: 2em;
+}
+label {
+    float: left;
+    display:block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
